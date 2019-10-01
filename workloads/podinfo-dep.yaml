@@ -47,7 +47,7 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "Greetings human!"
+          value: "I am gitops, hear me roar automatically."
         livenessProbe:
           httpGet:
             path: /healthz
